@@ -19,7 +19,7 @@
 
 | 名前 | 内容 | Repo | Web |
 |---|---|---|---|
-| [iPhone天気予報アプリ](https://masauehr.github.io/iphone-weather-app/) | React Native + Expo + JMA API | [Repo](https://github.com/masauehr/iphone-weather-app) | [開く](https://masauehr.github.io/iphone-weather-app/) |
+| [衛星・レーダー・キキクルアプリ](https://masauehr.github.io/iphone-weather-app/) | 天気予報・レーダー衛星・キキクルの3タブ（React Native + Expo + JMA API） | [Repo](https://github.com/masauehr/iphone-weather-app) | [開く](https://masauehr.github.io/iphone-weather-app/) |
 | [jaxa_earth_viewer](https://masauehr.github.io/jaxa_earth_viewer/) | JAXA Earth API衛星データの地図ビューア | [Repo](https://github.com/masauehr/jaxa_earth_viewer) | [開く](https://masauehr.github.io/jaxa_earth_viewer/) |
 | [tide_viewer](https://masauehr.github.io/tide_viewer/) | 沖縄県7観測所の潮位一覧 | [Repo](https://github.com/masauehr/tide_viewer) | [開く](https://masauehr.github.io/tide_viewer/) |
 | [taiwan-weather-viewer](https://masauehr.github.io/taiwan-weather-viewer/) | 台湾の天気を中央氣象署データで見る（日中併記） | [Repo](https://github.com/masauehr/taiwan-weather-viewer) | [開く](https://masauehr.github.io/taiwan-weather-viewer/) |
