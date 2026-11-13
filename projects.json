@@ -15,7 +15,7 @@
     {"repo": "ageostrophic", "title": "ageostrophic", "desc": "EPSW週間アンサンブルから300hPa非地衡風天気図を自動生成", "category": "天気図・数値予報"},
     {"repo": "weather_chart_vlm", "title": "weather_chart_vlm", "desc": "天気図・衛星画像をVLMで解説（日次更新）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/weather_chart_vlm/"},
 
-    {"repo": "iphone-weather-app", "title": "衛星・レーダー・キキクルアプリ", "desc": "天気予報・レーダー衛星・キキクルの3タブ（React Native + Expo + JMA API）", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/iphone-weather-app/"},
+    {"repo": "iphone-weather-app", "title": "衛星・レーダー・キキクル App", "desc": "天気予報・レーダー衛星・キキクルの3タブ（React Native + Expo + JMA API）", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/iphone-weather-app/"},
     {"repo": "jaxa_earth_viewer", "title": "jaxa_earth_viewer", "desc": "JAXA Earth API衛星データの地図ビューア", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/jaxa_earth_viewer/"},
     {"repo": "tide_viewer", "title": "tide_viewer", "desc": "沖縄県7観測所の潮位一覧", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/tide_viewer/"},
     {"repo": "taiwan-weather-viewer", "title": "taiwan-weather-viewer", "desc": "台湾の天気を中央氣象署データで見る（日中併記）", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/taiwan-weather-viewer/"},
