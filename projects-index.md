@@ -16,6 +16,10 @@
 - **公開版**: このリポジトリ（public）。公開リポジトリのみ。Pages ありはそちらを主リンク、無いものは GitHub リポジトリへリンク
 - **ローカル版**: private・ローカルのみ・ツール類（公開一覧から除外）は、非公開側の別リポジトリで同じ形式のデータから Markdown を生成して管理（public にはこの内容を入れない）
 
+## プロフィールからの導線
+
+GitHub のプロフィール（`github.com/masauehr`）上部には、プロフィール用リポジトリ `masauehr/masauehr`（public）の README が表示される。ここに一覧ページ（`https://masauehr.github.io/projects_index/`）と `projects_index` へのリンクを置いている（個人情報は載せない）。
+
 ## 更新手順
 
 1. `projects.json` にプロジェクトを追加・修正する（`repo` は GitHub のリポジトリ名。Pages があれば `pages` に URL）
