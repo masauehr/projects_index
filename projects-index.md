@@ -1,0 +1,32 @@
+# projects_index（作成アプリ一覧）
+
+作成したアプリを、公開版の一覧ページ（GitHub Pages）とリポジトリ README にまとめ、GitHub から簡単に飛べるようにするプロジェクト。2026-11-14 作成。
+
+## 構成
+
+| ファイル | 役割 |
+|---|---|
+| `projects.json` | 公開版の元データ。**公開リポジトリのみ**を記載する（private名は入れない） |
+| `build.py` | `projects.json` から `README.md` と `index.html` を生成 |
+| `README.md` | 公開版の一覧（自動生成・直接編集しない） |
+| `index.html` | GitHub Pages 用の一覧。検索ボックスで絞り込み、ダーク対応、スマホ幅対応 |
+
+## 公開版とローカル版の分離
+
+- **公開版**: このリポジトリ（public）。公開リポジトリのみ。Pages ありはそちらを主リンク、無いものは GitHub リポジトリへリンク
+- **ローカル版**: private・ローカルのみ・ツール類（公開一覧から除外）は、非公開側の別リポジトリで同じ形式のデータから Markdown を生成して管理（public にはこの内容を入れない）
+
+## 更新手順
+
+1. `projects.json` にプロジェクトを追加・修正する（`repo` は GitHub のリポジトリ名。Pages があれば `pages` に URL）
+2. `python3 build.py --intro "詳しくは [projects-index.md](projects-index.md) を参照"` を実行
+3. `git add` → `git commit` → `git push`
+
+ローカル版の生成は `--json` `--md` `--no-html` で別データを指定する。
+
+## 注意
+
+- 新しい public リポジトリを作ったら `projects.json` に追加する（載せ忘れ防止）
+- private リポジトリを public にしたときも追加する。逆に private 化したら `projects.json` から**必ず外す**
+- フォルダ名とリポジトリ名が違うもの（例: `mobile_app` → `iphone-weather-app`）は、`repo` に GitHub 側の名前を書く
+- ツール類（共通部品・MCP補助など）と、公開アプリのないもの・作成中のものは公開一覧に載せない方針

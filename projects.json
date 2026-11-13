@@ -1,0 +1,61 @@
+{
+  "owner": "masauehr",
+  "categories": [
+    "天気図・数値予報",
+    "気象データ・ビューア",
+    "MCP・自動ダイジェスト",
+    "AI・機械学習の学習",
+    "開発・その他"
+  ],
+  "projects": [
+    {"repo": "tenkizu", "title": "tenkizu", "desc": "GSM 500hPa天気図作成ツール", "category": "天気図・数値予報"},
+    {"repo": "tenkizu_web", "title": "tenkizu_web", "desc": "天気図・断面図・エマグラムをWebで表示", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/tenkizu_web/"},
+    {"repo": "nwp_chart_web", "title": "nwp_chart_web", "desc": "数値モデル天気図ビューア（ECMWF/GFS/AIFS）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/nwp_chart_web/"},
+    {"repo": "nwp_xsection_api", "title": "nwp_xsection_api", "desc": "断面図・エマグラム作成API（Render用）", "category": "天気図・数値予報"},
+    {"repo": "ageostrophic", "title": "ageostrophic", "desc": "EPSW週間アンサンブルから300hPa非地衡風天気図を自動生成", "category": "天気図・数値予報"},
+    {"repo": "weather_chart_vlm", "title": "weather_chart_vlm", "desc": "天気図・衛星画像をVLMで解説（日次更新）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/weather_chart_vlm/"},
+
+    {"repo": "iphone-weather-app", "title": "iPhone天気予報アプリ", "desc": "React Native + Expo + JMA API", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/iphone-weather-app/"},
+    {"repo": "jaxa_earth_viewer", "title": "jaxa_earth_viewer", "desc": "JAXA Earth API衛星データの地図ビューア", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/jaxa_earth_viewer/"},
+    {"repo": "tide_viewer", "title": "tide_viewer", "desc": "沖縄県7観測所の潮位一覧", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/tide_viewer/"},
+    {"repo": "taiwan-weather-viewer", "title": "taiwan-weather-viewer", "desc": "台湾の天気を中央氣象署データで見る（日中併記）", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/taiwan-weather-viewer/"},
+    {"repo": "taiwan-radar-frames", "title": "taiwan-radar-frames", "desc": "台湾レーダー合成エコー図の静的配信", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/taiwan-radar-frames/"},
+    {"repo": "kaiyo_sokuho_viewer", "title": "kaiyo_sokuho_viewer", "desc": "海上保安庁 海洋速報の海流GISビューア", "category": "気象データ・ビューア"},
+    {"repo": "dry_route", "title": "dry_route", "desc": "濡れない経路ナビ（降水ナウキャスト×OSRM）", "category": "気象データ・ビューア"},
+    {"repo": "jma_navigator", "title": "jma_navigator", "desc": "気象庁HP案内アシスタント", "category": "気象データ・ビューア"},
+    {"repo": "typhoon_forecast_viewer", "title": "typhoon_forecast_viewer", "desc": "台風予報円・進路線のスマホ向けビューア", "category": "気象データ・ビューア"},
+    {"repo": "beachball_decoder", "title": "beachball_decoder", "desc": "震源球を直感的な図へ変換", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/beachball_decoder/"},
+    {"repo": "lichens", "title": "lichens", "desc": "地衣類フォトマップ", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/lichens/"},
+    {"repo": "map_registry", "title": "map_registry", "desc": "申請制・承認制の地図登録システム", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/map_registry/"},
+
+    {"repo": "jma-mcp", "title": "jma-mcp", "desc": "気象庁APIをMCPサーバーとして公開", "category": "MCP・自動ダイジェスト"},
+    {"repo": "jma-mcp-remote", "title": "jma-mcp-remote", "desc": "JMA MCP のHTTP/SSEリモート版（Render）", "category": "MCP・自動ダイジェスト"},
+    {"repo": "jma_weather_report", "title": "jma_weather_report", "desc": "沖縄本島の天気予報を毎朝取得しMarkdown公開", "category": "MCP・自動ダイジェスト"},
+    {"repo": "weather_digest", "title": "weather_digest", "desc": "気象・気候・防災ニュースの週次・月次ダイジェスト", "category": "MCP・自動ダイジェスト", "pages": "https://masauehr.github.io/weather_digest/"},
+    {"repo": "econ_digest", "title": "econ_digest", "desc": "経済・マーケットニュースの週次・月次ダイジェスト", "category": "MCP・自動ダイジェスト", "pages": "https://masauehr.github.io/econ_digest/"},
+    {"repo": "ai_news", "title": "ai_news", "desc": "生成AI最新情報の週次・月次ダイジェスト", "category": "MCP・自動ダイジェスト", "pages": "https://masauehr.github.io/ai_news/"},
+    {"repo": "automated-data-collector", "title": "automated-data-collector", "desc": "気象・経済・AIの自動データ収集", "category": "MCP・自動ダイジェスト"},
+    {"repo": "RAG_met", "title": "RAG_met", "desc": "気象・業務データのRAGチャットボット", "category": "MCP・自動ダイジェスト"},
+
+    {"repo": "anomaly_lab", "title": "anomaly_lab", "desc": "日次発電量で異常検知を学ぶ", "category": "AI・機械学習の学習"},
+    {"repo": "rl_lab", "title": "rl_lab", "desc": "強化学習を自作の迷路・崖・蓄電池で学ぶ", "category": "AI・機械学習の学習"},
+    {"repo": "recsys_lab", "title": "recsys_lab", "desc": "推薦システムを合成データで学ぶ", "category": "AI・機械学習の学習"},
+    {"repo": "dl_forecast_lab", "title": "dl_forecast_lab", "desc": "深層学習の時系列予測を合成データで学ぶ", "category": "AI・機械学習の学習"},
+    {"repo": "image_augment_lab", "title": "image_augment_lab", "desc": "データ拡張を学ぶ演習", "category": "AI・機械学習の学習"},
+    {"repo": "plate_reader_lab", "title": "plate_reader_lab", "desc": "ナンバー風合成画像の読み取りミニシステム", "category": "AI・機械学習の学習"},
+    {"repo": "typhoon_track_dl", "title": "typhoon_track_dl", "desc": "ベストトラックで台風進路の月別傾向をSOM探究", "category": "AI・機械学習の学習"},
+    {"repo": "typhoon_wind_dl", "title": "typhoon_wind_dl", "desc": "ERA5風速分布をCNNで学習し台風の傾向を探究", "category": "AI・機械学習の学習"},
+    {"repo": "1bit_LLM", "title": "1bit_LLM", "desc": "8GB MacBookで動かす1ビット量子化LLMの実験", "category": "AI・機械学習の学習"},
+    {"repo": "cloud_sim", "title": "cloud_sim", "desc": "PySDMによる雲物理シミュレーション検証", "category": "AI・機械学習の学習"},
+    {"repo": "solar_curtailment_kyushu", "title": "solar_curtailment_kyushu", "desc": "太陽光の出力制御は天気で説明できるか（九州）", "category": "AI・機械学習の学習"},
+    {"repo": "weather_hackathon_ideas", "title": "weather_hackathon_ideas", "desc": "気象×生成AIのアイデア集", "category": "AI・機械学習の学習", "pages": "https://masauehr.github.io/weather_hackathon_ideas/"},
+    {"repo": "audio_transcriber", "title": "audio_transcriber", "desc": "faster-whisperによるローカル音声文字起こし", "category": "AI・機械学習の学習"},
+
+    {"repo": "tonari_no_mago", "title": "tonari_no_mago", "desc": "画面ガイド・やさしい表示・詐欺文面判定のChrome拡張", "category": "開発・その他"},
+    {"repo": "openclaw_setup", "title": "openclaw_setup", "desc": "OpenClawのMac導入作業記録", "category": "開発・その他"},
+    {"repo": "claude_writing", "title": "claude_writing", "desc": "Claude Codeで文章を書くノウハウ集", "category": "開発・その他"},
+    {"repo": "marp_slides", "title": "marp_slides", "desc": "Markdown→PPTX/PDFスライド自動生成", "category": "開発・その他"},
+    {"repo": "setup_guide_ext", "title": "setup_guide_ext", "desc": "各サービスの設定画面を案内するChrome拡張", "category": "開発・その他"},
+    {"repo": "gsr-webapp", "title": "gsr-webapp", "desc": "全天日射量(GSR)可視化アプリ", "category": "開発・その他"}
+  ]
+}
