@@ -13,7 +13,8 @@
     {"repo": "nwp_chart_web", "title": "nwp_chart_web", "desc": "数値モデル天気図ビューア（ECMWF/GFS/AIFS）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/nwp_chart_web/"},
     {"repo": "nwp_xsection_api", "title": "nwp_xsection_api", "desc": "断面図・エマグラム作成API（Render用）", "category": "天気図・数値予報"},
     {"repo": "ageostrophic", "title": "ageostrophic", "desc": "EPSW週間アンサンブルから300hPa非地衡風天気図を自動生成", "category": "天気図・数値予報"},
-    {"repo": "week_to_season_charts", "title": "week_to_season_charts", "desc": "週間〜長期予報用の天気図（アンサンブル平均・平年偏差・確率）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/week_to_season_charts/"},
+    {"repo": "week_to_season_charts", "title": "week_forecast_charts", "desc": "週間〜2週間予報用の天気図（アンサンブル平均・平年偏差・確率）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/week_to_season_charts/"},
+    {"repo": "long_range_charts", "title": "long_range_charts", "desc": "1か月以上の長期予報用の図（平年偏差・三分位確率・SST・循環指標）", "category": "天気図・数値予報"},
     {"repo": "weather_chart_vlm", "title": "weather_chart_vlm", "desc": "天気図・衛星画像をVLMで解説（日次更新）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/weather_chart_vlm/"},
 
     {"repo": "iphone-weather-app", "title": "衛星・レーダー・キキクル App", "desc": "天気予報・レーダー衛星・キキクルの3タブ（React Native + Expo + JMA API）", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/iphone-weather-app/"},
