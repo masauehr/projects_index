@@ -57,6 +57,7 @@
     {"repo": "claude_writing", "title": "claude_writing", "desc": "Claude Codeで文章を書くノウハウ集", "category": "開発・その他"},
     {"repo": "marp_slides", "title": "marp_slides", "desc": "Markdown→PPTX/PDFスライド自動生成", "category": "開発・その他"},
     {"repo": "setup_guide_ext", "title": "setup_guide_ext", "desc": "各サービスの設定画面を案内するChrome拡張", "category": "開発・その他"},
-    {"repo": "gsr-webapp", "title": "gsr-webapp", "desc": "全天日射量(GSR)可視化アプリ", "category": "開発・その他"}
+    {"repo": "gsr-webapp", "title": "gsr-webapp", "desc": "全天日射量(GSR)可視化アプリ", "category": "開発・その他"},
+    {"repo": "product_screens", "title": "product_screens", "desc": "公開中のWebプロダクトを実画面で一覧", "category": "開発・その他", "pages": "https://masauehr.github.io/product_screens/"}
   ]
 }

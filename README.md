@@ -2,7 +2,7 @@
 
 詳しくは [projects-index.md](projects-index.md) を参照
 
-全 46 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。
+全 47 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。
 
 ## 天気図・数値予報
 
@@ -74,5 +74,6 @@
 | [marp_slides](https://github.com/masauehr/marp_slides) | Markdown→PPTX/PDFスライド自動生成 | [Repo](https://github.com/masauehr/marp_slides) | - |
 | [setup_guide_ext](https://github.com/masauehr/setup_guide_ext) | 各サービスの設定画面を案内するChrome拡張 | [Repo](https://github.com/masauehr/setup_guide_ext) | - |
 | [gsr-webapp](https://github.com/masauehr/gsr-webapp) | 全天日射量(GSR)可視化アプリ | [Repo](https://github.com/masauehr/gsr-webapp) | - |
+| [product_screens](https://masauehr.github.io/product_screens/) | 公開中のWebプロダクトを実画面で一覧 | [Repo](https://github.com/masauehr/product_screens) | [開く](https://masauehr.github.io/product_screens/) |
 
 <!-- このファイルは build.py で自動生成。直接編集しない -->
