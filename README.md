@@ -15,7 +15,7 @@
 | [ageostrophic](https://github.com/masauehr/ageostrophic) | EPSW週間アンサンブルから300hPa非地衡風天気図を自動生成 | [Repo](https://github.com/masauehr/ageostrophic) | - |
 | [week_forecast_charts](https://masauehr.github.io/week_to_season_charts/) | 週間〜2週間予報用の天気図（アンサンブル平均・平年偏差・確率） | [Repo](https://github.com/masauehr/week_to_season_charts) | [開く](https://masauehr.github.io/week_to_season_charts/) |
 | [long_range_charts](https://github.com/masauehr/long_range_charts) | 1か月以上の長期予報用の図（平年偏差・三分位確率・SST・循環指標） | [Repo](https://github.com/masauehr/long_range_charts) | - |
-| [weather_chart_vlm](https://masauehr.github.io/weather_chart_vlm/) | 天気図・衛星画像をVLMで解説（日次更新） | [Repo](https://github.com/masauehr/weather_chart_vlm) | [開く](https://masauehr.github.io/weather_chart_vlm/) |
+| [weather_chart_vlm](https://masauehr.github.io/weather_chart_vlm/webui/index.html) | 天気図・衛星画像をVLMで解説（日次更新） | [Repo](https://github.com/masauehr/weather_chart_vlm) | [開く](https://masauehr.github.io/weather_chart_vlm/webui/index.html) |
 
 ## 気象データ・ビューア
 
@@ -25,7 +25,7 @@
 | [jaxa_earth_viewer](https://masauehr.github.io/jaxa_earth_viewer/) | JAXA Earth API衛星データの地図ビューア | [Repo](https://github.com/masauehr/jaxa_earth_viewer) | [開く](https://masauehr.github.io/jaxa_earth_viewer/) |
 | [tide_viewer](https://masauehr.github.io/tide_viewer/) | 沖縄県7観測所の潮位一覧 | [Repo](https://github.com/masauehr/tide_viewer) | [開く](https://masauehr.github.io/tide_viewer/) |
 | [taiwan-weather-viewer](https://masauehr.github.io/taiwan-weather-viewer/) | 台湾の天気を中央氣象署データで見る（日中併記） | [Repo](https://github.com/masauehr/taiwan-weather-viewer) | [開く](https://masauehr.github.io/taiwan-weather-viewer/) |
-| [taiwan-radar-frames](https://masauehr.github.io/taiwan-radar-frames/) | 台湾レーダー合成エコー図の静的配信 | [Repo](https://github.com/masauehr/taiwan-radar-frames) | [開く](https://masauehr.github.io/taiwan-radar-frames/) |
+| [taiwan-radar-frames](https://github.com/masauehr/taiwan-radar-frames) | 台湾レーダー合成エコー図の静的配信 | [Repo](https://github.com/masauehr/taiwan-radar-frames) | - |
 | [kaiyo_sokuho_viewer](https://github.com/masauehr/kaiyo_sokuho_viewer) | 海上保安庁 海洋速報の海流GISビューア | [Repo](https://github.com/masauehr/kaiyo_sokuho_viewer) | - |
 | [dry_route](https://github.com/masauehr/dry_route) | 濡れない経路ナビ（降水ナウキャスト×OSRM） | [Repo](https://github.com/masauehr/dry_route) | - |
 | [jma_navigator](https://github.com/masauehr/jma_navigator) | 気象庁HP案内アシスタント | [Repo](https://github.com/masauehr/jma_navigator) | - |
