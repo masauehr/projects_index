@@ -16,11 +16,14 @@ def repo_url(owner, p):
     return f"https://github.com/{owner}/{p['repo']}"
 
 
-def build_md(data, title, intro=""):
+def build_md(data, title, intro="", intro_file=""):
     owner = data["owner"]
     lines = [f"# {title}", ""]
     if intro:
         lines += [intro, ""]
+    if intro_file:
+        # 手書きのブロックを一覧の表の前に差し込む（ローカル版の起動ガイド用）
+        lines += [Path(intro_file).read_text(encoding="utf-8").rstrip("\n"), ""]
     lines.append(f"全 {len(data['projects'])} 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。")
     lines.append("")
     for cat in data["categories"]:
@@ -103,9 +106,10 @@ def main():
     ap.add_argument("--no-html", action="store_true")
     ap.add_argument("--title", default="作成したアプリ一覧")
     ap.add_argument("--intro", default="", help="README冒頭に入れる1行（マニュアルへのリンク等）")
+    ap.add_argument("--intro-file", default="", help="表の前に差し込むMarkdownファイル")
     a = ap.parse_args()
     data = json.loads(Path(a.json).read_text(encoding="utf-8"))
-    Path(a.md).write_text(build_md(data, a.title, a.intro), encoding="utf-8")
+    Path(a.md).write_text(build_md(data, a.title, a.intro, a.intro_file), encoding="utf-8")
     if not a.no_html:
         Path(a.html).write_text(build_html(data, a.title), encoding="utf-8")
     print("生成:", a.md, "" if a.no_html else a.html)

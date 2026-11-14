@@ -26,7 +26,7 @@ GitHub のプロフィール（`github.com/masauehr`）上部には、プロフ�
 2. `python3 build.py --intro "詳しくは [projects-index.md](projects-index.md) を参照"` を実行
 3. `git add` → `git commit` → `git push`
 
-ローカル版の生成は `--json` `--md` `--no-html` で別データを指定する。
+ローカル版の生成は `--json` `--md` `--no-html` で別データを指定する。手書きの Markdown（Jupyter とローカルサーバーの起動ガイド）を一覧の先頭に差し込むには `--intro-file <ファイル>` を使う。ローカルサーバーを追加・変更したら、そのファイルも直す。
 
 ## 注意
 
