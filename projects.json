@@ -24,12 +24,12 @@
     {"repo": "kaiyo_sokuho_viewer", "title": "kaiyo_sokuho_viewer", "desc": "海況ビューア（気象庁の波浪・水温・海流図、海保の海流GIS・海底地形を重畳）", "category": "気象データ・ビューア"},
     {"repo": "dry_route", "title": "dry_route", "desc": "濡れない経路ナビ（降水ナウキャスト×OSRM）", "category": "気象データ・ビューア"},
     {"repo": "jma_navigator", "title": "jma_navigator", "desc": "気象庁HP案内アシスタント", "category": "気象データ・ビューア"},
-    {"repo": "typhoon_forecast_viewer", "title": "typhoon_forecast_viewer", "desc": "台風予報円・進路線のスマホ向けビューア", "category": "気象データ・ビューア"},
+    {"repo": "typhoon_forecast_viewer", "title": "typhoon_forecast_viewer", "desc": "台風予報円・進路線のスマホ向けビューア（雛形のみ・未実装）", "category": "気象データ・ビューア"},
     {"repo": "beachball_decoder", "title": "beachball_decoder", "desc": "震源球を直感的な図へ変換（ブロック図・地表初動マップ。ブラウザ版・Python版）", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/beachball_decoder/"},
     {"repo": "lichens", "title": "lichens", "desc": "地衣類フォトマップ（写真アプリから自動抽出し地図で公開）", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/lichens/"},
     {"repo": "map_registry", "title": "map_registry", "desc": "申請制・承認制の地図登録システム", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/map_registry/"},
 
-    {"repo": "jma-mcp", "title": "jma-mcp", "desc": "気象庁APIをMCPサーバーとして公開（予報・警報・台風・潮位など。Claude Codeから利用）", "category": "MCP・自動ダイジェスト"},
+    {"repo": "jma-mcp", "title": "jma-mcp", "desc": "気象庁APIをMCPサーバーとして公開（全23ツール：予報・警報・台風・潮位・記録更新など。Claude Codeから利用）", "category": "MCP・自動ダイジェスト"},
     {"repo": "jma-mcp-remote", "title": "jma-mcp-remote", "desc": "JMA MCP のHTTP/SSEリモート版（Render）", "category": "MCP・自動ダイジェスト"},
     {"repo": "jma_weather_report", "title": "jma_weather_report", "desc": "気象庁APIの天気予報をGitHub Actionsで定期取得しMarkdownレポートとして公開", "category": "MCP・自動ダイジェスト"},
     {"repo": "weather_digest", "title": "weather_digest", "desc": "気象・気候・防災ニュースの週次・月次ダイジェスト（複数LLMの比較つき）", "category": "MCP・自動ダイジェスト", "pages": "https://masauehr.github.io/weather_digest/"},
@@ -57,7 +57,6 @@
     {"repo": "claude_writing", "title": "claude_writing", "desc": "Claude Codeで文章を書くノウハウ集", "category": "開発・その他"},
     {"repo": "marp_slides", "title": "marp_slides", "desc": "Markdown→PPTX/PDFスライド自動生成", "category": "開発・その他"},
     {"repo": "setup_guide_ext", "title": "setup_guide_ext", "desc": "各サービスの設定画面を案内するChrome拡張", "category": "開発・その他"},
-    {"repo": "gsr-webapp", "title": "gsr-webapp", "desc": "全天日射量(GSR)可視化アプリ", "category": "開発・その他"},
     {"repo": "product_screens", "title": "product_screens", "desc": "公開中のWebプロダクトを実画面で一覧", "category": "開発・その他", "pages": "https://masauehr.github.io/product_screens/"}
   ]
 }

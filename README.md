@@ -2,7 +2,7 @@
 
 詳しくは [projects-index.md](projects-index.md) を参照
 
-全 47 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。
+全 46 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。
 
 ## 天気図・数値予報
 
@@ -28,7 +28,7 @@
 | [kaiyo_sokuho_viewer](https://github.com/masauehr/kaiyo_sokuho_viewer) | 海況ビューア（気象庁の波浪・水温・海流図、海保の海流GIS・海底地形を重畳） | [Repo](https://github.com/masauehr/kaiyo_sokuho_viewer) | - |
 | [dry_route](https://github.com/masauehr/dry_route) | 濡れない経路ナビ（降水ナウキャスト×OSRM） | [Repo](https://github.com/masauehr/dry_route) | - |
 | [jma_navigator](https://github.com/masauehr/jma_navigator) | 気象庁HP案内アシスタント | [Repo](https://github.com/masauehr/jma_navigator) | - |
-| [typhoon_forecast_viewer](https://github.com/masauehr/typhoon_forecast_viewer) | 台風予報円・進路線のスマホ向けビューア | [Repo](https://github.com/masauehr/typhoon_forecast_viewer) | - |
+| [typhoon_forecast_viewer](https://github.com/masauehr/typhoon_forecast_viewer) | 台風予報円・進路線のスマホ向けビューア（雛形のみ・未実装） | [Repo](https://github.com/masauehr/typhoon_forecast_viewer) | - |
 | [beachball_decoder](https://masauehr.github.io/beachball_decoder/) | 震源球を直感的な図へ変換（ブロック図・地表初動マップ。ブラウザ版・Python版） | [Repo](https://github.com/masauehr/beachball_decoder) | [開く](https://masauehr.github.io/beachball_decoder/) |
 | [lichens](https://masauehr.github.io/lichens/) | 地衣類フォトマップ（写真アプリから自動抽出し地図で公開） | [Repo](https://github.com/masauehr/lichens) | [開く](https://masauehr.github.io/lichens/) |
 | [map_registry](https://masauehr.github.io/map_registry/) | 申請制・承認制の地図登録システム | [Repo](https://github.com/masauehr/map_registry) | [開く](https://masauehr.github.io/map_registry/) |
@@ -37,7 +37,7 @@
 
 | 名前 | 内容 | Repo | Web |
 |---|---|---|---|
-| [jma-mcp](https://github.com/masauehr/jma-mcp) | 気象庁APIをMCPサーバーとして公開（予報・警報・台風・潮位など。Claude Codeから利用） | [Repo](https://github.com/masauehr/jma-mcp) | - |
+| [jma-mcp](https://github.com/masauehr/jma-mcp) | 気象庁APIをMCPサーバーとして公開（全23ツール：予報・警報・台風・潮位・記録更新など。Claude Codeから利用） | [Repo](https://github.com/masauehr/jma-mcp) | - |
 | [jma-mcp-remote](https://github.com/masauehr/jma-mcp-remote) | JMA MCP のHTTP/SSEリモート版（Render） | [Repo](https://github.com/masauehr/jma-mcp-remote) | - |
 | [jma_weather_report](https://github.com/masauehr/jma_weather_report) | 気象庁APIの天気予報をGitHub Actionsで定期取得しMarkdownレポートとして公開 | [Repo](https://github.com/masauehr/jma_weather_report) | - |
 | [weather_digest](https://masauehr.github.io/weather_digest/) | 気象・気候・防災ニュースの週次・月次ダイジェスト（複数LLMの比較つき） | [Repo](https://github.com/masauehr/weather_digest) | [開く](https://masauehr.github.io/weather_digest/) |
@@ -73,7 +73,6 @@
 | [claude_writing](https://github.com/masauehr/claude_writing) | Claude Codeで文章を書くノウハウ集 | [Repo](https://github.com/masauehr/claude_writing) | - |
 | [marp_slides](https://github.com/masauehr/marp_slides) | Markdown→PPTX/PDFスライド自動生成 | [Repo](https://github.com/masauehr/marp_slides) | - |
 | [setup_guide_ext](https://github.com/masauehr/setup_guide_ext) | 各サービスの設定画面を案内するChrome拡張 | [Repo](https://github.com/masauehr/setup_guide_ext) | - |
-| [gsr-webapp](https://github.com/masauehr/gsr-webapp) | 全天日射量(GSR)可視化アプリ | [Repo](https://github.com/masauehr/gsr-webapp) | - |
 | [product_screens](https://masauehr.github.io/product_screens/) | 公開中のWebプロダクトを実画面で一覧 | [Repo](https://github.com/masauehr/product_screens) | [開く](https://masauehr.github.io/product_screens/) |
 
 <!-- このファイルは build.py で自動生成。直接編集しない -->
