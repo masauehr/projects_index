@@ -35,3 +35,4 @@ GitHub のプロフィール（`github.com/masauehr`）上部には、プロフ�
 - フォルダ名とリポジトリ名が違うもの（例: `mobile_app` → `iphone-weather-app`）は、`repo` に GitHub 側の名前を書く
 - `pages` は**実際に画面が開くURL**を書く。ルートに `index.html` が無いサイト（例: `weather_chart_vlm` は `webui/index.html`）はファイルまで指定する。画面が無いデータ配信用（例: `taiwan-radar-frames`）は `pages` を付けず GitHub リポジトリへリンクする。追加時は URL を実際に開いて確認する
 - ツール類（共通部品・MCP補助など）と、公開アプリのないもの・作成中のものは公開一覧に載せない方針
+- 各プロジェクトの README は育つので、`desc`（内容欄）が古くならないよう定期的に読み直して実態に合わせる（2026-11-15 に公開19件の説明を README に合わせて更新。例: tenkizu は GSM だけでなく ECMWF・断面図・エマグラムまで含む）

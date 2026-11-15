@@ -8,11 +8,11 @@
 
 | 名前 | 内容 | Repo | Web |
 |---|---|---|---|
-| [tenkizu](https://github.com/masauehr/tenkizu) | GSM 500hPa天気図作成ツール | [Repo](https://github.com/masauehr/tenkizu) | - |
-| [tenkizu_web](https://masauehr.github.io/tenkizu_web/) | 天気図・断面図・エマグラムをWebで表示 | [Repo](https://github.com/masauehr/tenkizu_web) | [開く](https://masauehr.github.io/tenkizu_web/) |
-| [nwp_chart_web](https://masauehr.github.io/nwp_chart_web/) | 数値モデル天気図ビューア（ECMWF/GFS/AIFS） | [Repo](https://github.com/masauehr/nwp_chart_web) | [開く](https://masauehr.github.io/nwp_chart_web/) |
+| [tenkizu](https://github.com/masauehr/tenkizu) | 天気図・断面図・エマグラムの作図ツール（GSM・ECMWF・JRA-55・気象庁高層観測、天気図18種） | [Repo](https://github.com/masauehr/tenkizu) | - |
+| [tenkizu_web](https://masauehr.github.io/tenkizu_web/) | tenkizuの図をブラウザで見る（ECMWF/GFS公開・別の図を並べる・実況エマグラム・断面図/エマグラムの自由選択） | [Repo](https://github.com/masauehr/tenkizu_web) | [開く](https://masauehr.github.io/tenkizu_web/) |
+| [nwp_chart_web](https://masauehr.github.io/nwp_chart_web/) | 数値モデル天気図ビューア（ECMWF/GFS/AIFS・2モデル比較・断面図/エマグラム作成。GSMはローカル専用） | [Repo](https://github.com/masauehr/nwp_chart_web) | [開く](https://masauehr.github.io/nwp_chart_web/) |
 | [nwp_xsection_api](https://github.com/masauehr/nwp_xsection_api) | 断面図・エマグラム作成API（Render用） | [Repo](https://github.com/masauehr/nwp_xsection_api) | - |
-| [week_forecast_charts](https://masauehr.github.io/week_forecast_charts/) | 週間〜2週間予報用の天気図（アンサンブル平均・平年偏差・確率） | [Repo](https://github.com/masauehr/week_forecast_charts) | [開く](https://masauehr.github.io/week_forecast_charts/) |
+| [week_forecast_charts](https://masauehr.github.io/week_forecast_charts/) | 週間〜2週間予報用の天気図（アンサンブル平均・平年偏差・階級確率。標準版・画用紙版） | [Repo](https://github.com/masauehr/week_forecast_charts) | [開く](https://masauehr.github.io/week_forecast_charts/) |
 | [long_range_charts](https://github.com/masauehr/long_range_charts) | 1か月以上の長期予報用の図（平年偏差・三分位確率・SST・循環指標） | [Repo](https://github.com/masauehr/long_range_charts) | - |
 | [weather_chart_vlm](https://masauehr.github.io/weather_chart_vlm/webui/index.html) | 天気図・衛星画像をVLMで解説（日次更新） | [Repo](https://github.com/masauehr/weather_chart_vlm) | [開く](https://masauehr.github.io/weather_chart_vlm/webui/index.html) |
 
@@ -20,30 +20,30 @@
 
 | 名前 | 内容 | Repo | Web |
 |---|---|---|---|
-| [衛星・レーダー・キキクル App](https://masauehr.github.io/iphone-weather-app/) | 天気予報・レーダー衛星・キキクルの3タブ（React Native + Expo + JMA API） | [Repo](https://github.com/masauehr/iphone-weather-app) | [開く](https://masauehr.github.io/iphone-weather-app/) |
-| [jaxa_earth_viewer](https://masauehr.github.io/jaxa_earth_viewer/) | JAXA Earth API衛星データの地図ビューア | [Repo](https://github.com/masauehr/jaxa_earth_viewer) | [開く](https://masauehr.github.io/jaxa_earth_viewer/) |
-| [tide_viewer](https://masauehr.github.io/tide_viewer/) | 沖縄県7観測所の潮位一覧 | [Repo](https://github.com/masauehr/tide_viewer) | [開く](https://masauehr.github.io/tide_viewer/) |
-| [taiwan-weather-viewer](https://masauehr.github.io/taiwan-weather-viewer/) | 台湾の天気を中央氣象署データで見る（日中併記） | [Repo](https://github.com/masauehr/taiwan-weather-viewer) | [開く](https://masauehr.github.io/taiwan-weather-viewer/) |
-| [taiwan-radar-frames](https://github.com/masauehr/taiwan-radar-frames) | 台湾レーダー合成エコー図の静的配信 | [Repo](https://github.com/masauehr/taiwan-radar-frames) | - |
-| [kaiyo_sokuho_viewer](https://github.com/masauehr/kaiyo_sokuho_viewer) | 海上保安庁 海洋速報の海流GISビューア | [Repo](https://github.com/masauehr/kaiyo_sokuho_viewer) | - |
+| [衛星・レーダー・キキクル App](https://masauehr.github.io/iphone-weather-app/) | 全47都道府県の天気予報・レーダー/衛星（アメダス重ね・台湾対応）・キキクル（React Native + Expo、Web版を公開） | [Repo](https://github.com/masauehr/iphone-weather-app) | [開く](https://masauehr.github.io/iphone-weather-app/) |
+| [jaxa_earth_viewer](https://masauehr.github.io/jaxa_earth_viewer/) | JAXA Earth API衛星データ（降水・日射量・土壌水分・SST等）の地図ビューア（JS版・Render/Pages公開） | [Repo](https://github.com/masauehr/jaxa_earth_viewer) | [開く](https://masauehr.github.io/jaxa_earth_viewer/) |
+| [tide_viewer](https://masauehr.github.io/tide_viewer/) | 全国166観測所の潮位一覧（観測値＋天文潮位・偏差・ズーム、既定は沖縄7局） | [Repo](https://github.com/masauehr/tide_viewer) | [開く](https://masauehr.github.io/tide_viewer/) |
+| [taiwan-weather-viewer](https://masauehr.github.io/taiwan-weather-viewer/) | 台湾の天気ビューア（レーダーと観測363局を重ねて過去3時間を再生・日中併記） | [Repo](https://github.com/masauehr/taiwan-weather-viewer) | [開く](https://masauehr.github.io/taiwan-weather-viewer/) |
+| [taiwan-radar-frames](https://github.com/masauehr/taiwan-radar-frames) | 台湾レーダー・地上観測の過去3時間分の静的配信（cron-job.org+Actions、台湾系アプリの共通データ） | [Repo](https://github.com/masauehr/taiwan-radar-frames) | - |
+| [kaiyo_sokuho_viewer](https://github.com/masauehr/kaiyo_sokuho_viewer) | 海況ビューア（気象庁の波浪・水温・海流図、海保の海流GIS・海底地形を重畳） | [Repo](https://github.com/masauehr/kaiyo_sokuho_viewer) | - |
 | [dry_route](https://github.com/masauehr/dry_route) | 濡れない経路ナビ（降水ナウキャスト×OSRM） | [Repo](https://github.com/masauehr/dry_route) | - |
 | [jma_navigator](https://github.com/masauehr/jma_navigator) | 気象庁HP案内アシスタント | [Repo](https://github.com/masauehr/jma_navigator) | - |
 | [typhoon_forecast_viewer](https://github.com/masauehr/typhoon_forecast_viewer) | 台風予報円・進路線のスマホ向けビューア | [Repo](https://github.com/masauehr/typhoon_forecast_viewer) | - |
-| [beachball_decoder](https://masauehr.github.io/beachball_decoder/) | 震源球を直感的な図へ変換 | [Repo](https://github.com/masauehr/beachball_decoder) | [開く](https://masauehr.github.io/beachball_decoder/) |
-| [lichens](https://masauehr.github.io/lichens/) | 地衣類フォトマップ | [Repo](https://github.com/masauehr/lichens) | [開く](https://masauehr.github.io/lichens/) |
+| [beachball_decoder](https://masauehr.github.io/beachball_decoder/) | 震源球を直感的な図へ変換（ブロック図・地表初動マップ。ブラウザ版・Python版） | [Repo](https://github.com/masauehr/beachball_decoder) | [開く](https://masauehr.github.io/beachball_decoder/) |
+| [lichens](https://masauehr.github.io/lichens/) | 地衣類フォトマップ（写真アプリから自動抽出し地図で公開） | [Repo](https://github.com/masauehr/lichens) | [開く](https://masauehr.github.io/lichens/) |
 | [map_registry](https://masauehr.github.io/map_registry/) | 申請制・承認制の地図登録システム | [Repo](https://github.com/masauehr/map_registry) | [開く](https://masauehr.github.io/map_registry/) |
 
 ## MCP・自動ダイジェスト
 
 | 名前 | 内容 | Repo | Web |
 |---|---|---|---|
-| [jma-mcp](https://github.com/masauehr/jma-mcp) | 気象庁APIをMCPサーバーとして公開 | [Repo](https://github.com/masauehr/jma-mcp) | - |
+| [jma-mcp](https://github.com/masauehr/jma-mcp) | 気象庁APIをMCPサーバーとして公開（予報・警報・台風・潮位など。Claude Codeから利用） | [Repo](https://github.com/masauehr/jma-mcp) | - |
 | [jma-mcp-remote](https://github.com/masauehr/jma-mcp-remote) | JMA MCP のHTTP/SSEリモート版（Render） | [Repo](https://github.com/masauehr/jma-mcp-remote) | - |
-| [jma_weather_report](https://github.com/masauehr/jma_weather_report) | 沖縄本島の天気予報を毎朝取得しMarkdown公開 | [Repo](https://github.com/masauehr/jma_weather_report) | - |
-| [weather_digest](https://masauehr.github.io/weather_digest/) | 気象・気候・防災ニュースの週次・月次ダイジェスト | [Repo](https://github.com/masauehr/weather_digest) | [開く](https://masauehr.github.io/weather_digest/) |
-| [econ_digest](https://masauehr.github.io/econ_digest/) | 経済・マーケットニュースの週次・月次ダイジェスト | [Repo](https://github.com/masauehr/econ_digest) | [開く](https://masauehr.github.io/econ_digest/) |
-| [ai_news](https://masauehr.github.io/ai_news/) | 生成AI最新情報の週次・月次ダイジェスト | [Repo](https://github.com/masauehr/ai_news) | [開く](https://masauehr.github.io/ai_news/) |
-| [automated-data-collector](https://github.com/masauehr/automated-data-collector) | 気象・経済・AIの自動データ収集 | [Repo](https://github.com/masauehr/automated-data-collector) | - |
+| [jma_weather_report](https://github.com/masauehr/jma_weather_report) | 気象庁APIの天気予報をGitHub Actionsで定期取得しMarkdownレポートとして公開 | [Repo](https://github.com/masauehr/jma_weather_report) | - |
+| [weather_digest](https://masauehr.github.io/weather_digest/) | 気象・気候・防災ニュースの週次・月次ダイジェスト（複数LLMの比較つき） | [Repo](https://github.com/masauehr/weather_digest) | [開く](https://masauehr.github.io/weather_digest/) |
+| [econ_digest](https://masauehr.github.io/econ_digest/) | 経済・マーケットニュースの週次・月次ダイジェスト（Ollama/Haikuの比較評価つき） | [Repo](https://github.com/masauehr/econ_digest) | [開く](https://masauehr.github.io/econ_digest/) |
+| [ai_news](https://masauehr.github.io/ai_news/) | 生成AI最新情報の週次・月次ダイジェスト（Ollama/Haikuの比較つき） | [Repo](https://github.com/masauehr/ai_news) | [開く](https://masauehr.github.io/ai_news/) |
+| [automated-data-collector](https://github.com/masauehr/automated-data-collector) | 気象・経済・AIの情報を自動収集・要約しSlack/Blueskyへ配信（Bluesky毎朝投稿はlaunchd+Claude Code CLI+MCP） | [Repo](https://github.com/masauehr/automated-data-collector) | - |
 | [RAG_met](https://github.com/masauehr/RAG_met) | 気象・業務データのRAGチャットボット | [Repo](https://github.com/masauehr/RAG_met) | - |
 
 ## AI・機械学習の学習
@@ -68,7 +68,7 @@
 
 | 名前 | 内容 | Repo | Web |
 |---|---|---|---|
-| [tonari_no_mago](https://github.com/masauehr/tonari_no_mago) | 画面ガイド・やさしい表示・詐欺文面判定のChrome拡張 | [Repo](https://github.com/masauehr/tonari_no_mago) | - |
+| [tonari_no_mago](https://github.com/masauehr/tonari_no_mago) | 画面ガイド・やさしい表示・詐欺文面判定のChrome拡張（Phase0〜4完了・一旦終了） | [Repo](https://github.com/masauehr/tonari_no_mago) | - |
 | [openclaw_setup](https://github.com/masauehr/openclaw_setup) | OpenClawのMac導入作業記録 | [Repo](https://github.com/masauehr/openclaw_setup) | - |
 | [claude_writing](https://github.com/masauehr/claude_writing) | Claude Codeで文章を書くノウハウ集 | [Repo](https://github.com/masauehr/claude_writing) | - |
 | [marp_slides](https://github.com/masauehr/marp_slides) | Markdown→PPTX/PDFスライド自動生成 | [Repo](https://github.com/masauehr/marp_slides) | - |
