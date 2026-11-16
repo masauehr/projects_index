@@ -13,7 +13,7 @@
     {"repo": "nwp_chart_web", "title": "nwp_chart_web", "desc": "数値モデル天気図ビューア（ECMWF/GFS/AIFS・2モデル比較・断面図/エマグラム作成。GSMはローカル専用）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/nwp_chart_web/"},
     {"repo": "nwp_xsection_api", "title": "nwp_xsection_api", "desc": "断面図・エマグラム作成API（Render用）", "category": "天気図・数値予報"},
     {"repo": "week_forecast_charts", "title": "week_forecast_charts", "desc": "週間〜2週間予報用の天気図（アンサンブル平均・平年偏差・階級確率。標準版・画用紙版）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/week_forecast_charts/"},
-    {"repo": "long_range_charts", "title": "long_range_charts", "desc": "1か月以上の長期予報用の図（平年偏差・三分位確率・SST・循環指標）", "category": "天気図・数値予報"},
+    {"repo": "long_range_charts", "title": "long_range_charts", "desc": "1か月以上の長期予報用の統計図（NOAA CFSv2の平年偏差・三分位確率・SST・循環指標）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/long_range_charts/"},
     {"repo": "weather_chart_vlm", "title": "weather_chart_vlm", "desc": "天気図・衛星画像をVLMで解説（日次更新）", "category": "天気図・数値予報", "pages": "https://masauehr.github.io/weather_chart_vlm/webui/index.html"},
 
     {"repo": "iphone-weather-app", "title": "衛星・レーダー・キキクル App", "desc": "全47都道府県の天気予報・レーダー/衛星（アメダス重ね・台湾対応）・キキクル（React Native + Expo、Web版を公開）", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/iphone-weather-app/"},

@@ -13,7 +13,7 @@
 | [nwp_chart_web](https://masauehr.github.io/nwp_chart_web/) | 数値モデル天気図ビューア（ECMWF/GFS/AIFS・2モデル比較・断面図/エマグラム作成。GSMはローカル専用） | [Repo](https://github.com/masauehr/nwp_chart_web) | [開く](https://masauehr.github.io/nwp_chart_web/) |
 | [nwp_xsection_api](https://github.com/masauehr/nwp_xsection_api) | 断面図・エマグラム作成API（Render用） | [Repo](https://github.com/masauehr/nwp_xsection_api) | - |
 | [week_forecast_charts](https://masauehr.github.io/week_forecast_charts/) | 週間〜2週間予報用の天気図（アンサンブル平均・平年偏差・階級確率。標準版・画用紙版） | [Repo](https://github.com/masauehr/week_forecast_charts) | [開く](https://masauehr.github.io/week_forecast_charts/) |
-| [long_range_charts](https://github.com/masauehr/long_range_charts) | 1か月以上の長期予報用の図（平年偏差・三分位確率・SST・循環指標） | [Repo](https://github.com/masauehr/long_range_charts) | - |
+| [long_range_charts](https://masauehr.github.io/long_range_charts/) | 1か月以上の長期予報用の統計図（NOAA CFSv2の平年偏差・三分位確率・SST・循環指標） | [Repo](https://github.com/masauehr/long_range_charts) | [開く](https://masauehr.github.io/long_range_charts/) |
 | [weather_chart_vlm](https://masauehr.github.io/weather_chart_vlm/webui/index.html) | 天気図・衛星画像をVLMで解説（日次更新） | [Repo](https://github.com/masauehr/weather_chart_vlm) | [開く](https://masauehr.github.io/weather_chart_vlm/webui/index.html) |
 
 ## 気象データ・ビューア
