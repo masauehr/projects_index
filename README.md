@@ -2,7 +2,7 @@
 
 詳しくは [projects-index.md](projects-index.md) を参照
 
-全 46 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。
+全 47 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。
 
 ## 天気図・数値予報
 
@@ -25,6 +25,7 @@
 | [tide_viewer](https://masauehr.github.io/tide_viewer/) | 全国166観測所の潮位一覧（観測値＋天文潮位・偏差・ズーム、既定は沖縄7局） | [Repo](https://github.com/masauehr/tide_viewer) | [開く](https://masauehr.github.io/tide_viewer/) |
 | [taiwan-weather-viewer](https://masauehr.github.io/taiwan-weather-viewer/) | 台湾の天気ビューア（レーダーと観測363局を重ねて過去3時間を再生・日中併記） | [Repo](https://github.com/masauehr/taiwan-weather-viewer) | [開く](https://masauehr.github.io/taiwan-weather-viewer/) |
 | [taiwan-radar-frames](https://github.com/masauehr/taiwan-radar-frames) | 台湾レーダー・地上観測の過去3時間分の静的配信（cron-job.org+Actions、台湾系アプリの共通データ） | [Repo](https://github.com/masauehr/taiwan-radar-frames) | - |
+| [m5_mini_weather](https://github.com/masauehr/m5_mini_weather) | M5Stack CoreS3+ENV IIIのミニ気象観測（気温・湿度・気圧をSD保存→スマホ転送→解析。将来は防水化。実機確認待ち） | [Repo](https://github.com/masauehr/m5_mini_weather) | - |
 | [kaiyo_sokuho_viewer](https://github.com/masauehr/kaiyo_sokuho_viewer) | 海況ビューア（気象庁の波浪・水温・海流図、海保の海流GIS・海底地形を重畳） | [Repo](https://github.com/masauehr/kaiyo_sokuho_viewer) | - |
 | [dry_route](https://github.com/masauehr/dry_route) | 濡れない経路ナビ（降水ナウキャスト×OSRM） | [Repo](https://github.com/masauehr/dry_route) | - |
 | [jma_navigator](https://github.com/masauehr/jma_navigator) | 気象庁HP案内アシスタント | [Repo](https://github.com/masauehr/jma_navigator) | - |

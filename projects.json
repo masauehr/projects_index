@@ -21,6 +21,7 @@
     {"repo": "tide_viewer", "title": "tide_viewer", "desc": "全国166観測所の潮位一覧（観測値＋天文潮位・偏差・ズーム、既定は沖縄7局）", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/tide_viewer/"},
     {"repo": "taiwan-weather-viewer", "title": "taiwan-weather-viewer", "desc": "台湾の天気ビューア（レーダーと観測363局を重ねて過去3時間を再生・日中併記）", "category": "気象データ・ビューア", "pages": "https://masauehr.github.io/taiwan-weather-viewer/"},
     {"repo": "taiwan-radar-frames", "title": "taiwan-radar-frames", "desc": "台湾レーダー・地上観測の過去3時間分の静的配信（cron-job.org+Actions、台湾系アプリの共通データ）", "category": "気象データ・ビューア"},
+    {"repo": "m5_mini_weather", "title": "m5_mini_weather", "desc": "M5Stack CoreS3+ENV IIIのミニ気象観測（気温・湿度・気圧をSD保存→スマホ転送→解析。将来は防水化。実機確認待ち）", "category": "気象データ・ビューア"},
     {"repo": "kaiyo_sokuho_viewer", "title": "kaiyo_sokuho_viewer", "desc": "海況ビューア（気象庁の波浪・水温・海流図、海保の海流GIS・海底地形を重畳）", "category": "気象データ・ビューア"},
     {"repo": "dry_route", "title": "dry_route", "desc": "濡れない経路ナビ（降水ナウキャスト×OSRM）", "category": "気象データ・ビューア"},
     {"repo": "jma_navigator", "title": "jma_navigator", "desc": "気象庁HP案内アシスタント", "category": "気象データ・ビューア"},
