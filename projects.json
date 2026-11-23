@@ -34,7 +34,6 @@
     {"repo": "jma-mcp-remote", "title": "jma-mcp-remote", "desc": "JMA MCP のHTTP/SSEリモート版（Render）", "category": "MCP・自動ダイジェスト"},
     {"repo": "jma_weather_report", "title": "jma_weather_report", "desc": "気象庁APIの天気予報をGitHub Actionsで定期取得しMarkdownレポートとして公開", "category": "MCP・自動ダイジェスト"},
     {"repo": "weather_digest", "title": "weather_digest", "desc": "気象・気候・防災ニュースの週次・月次ダイジェスト（複数LLMの比較つき）", "category": "MCP・自動ダイジェスト", "pages": "https://masauehr.github.io/weather_digest/"},
-    {"repo": "econ_digest", "title": "econ_digest", "desc": "経済・マーケットニュースの週次・月次ダイジェスト（Ollama/Haikuの比較評価つき）", "category": "MCP・自動ダイジェスト", "pages": "https://masauehr.github.io/econ_digest/"},
     {"repo": "ai_news", "title": "ai_news", "desc": "生成AI最新情報の週次・月次ダイジェスト（Ollama/Haikuの比較つき）", "category": "MCP・自動ダイジェスト", "pages": "https://masauehr.github.io/ai_news/"},
     {"repo": "automated-data-collector", "title": "automated-data-collector", "desc": "気象・経済・AIの情報を自動収集・要約しSlack/Blueskyへ配信（Bluesky毎朝投稿はlaunchd+Claude Code CLI+MCP）", "category": "MCP・自動ダイジェスト"},
     {"repo": "RAG_met", "title": "RAG_met", "desc": "気象・業務データのRAGチャットボット", "category": "MCP・自動ダイジェスト"},
@@ -58,6 +57,8 @@
     {"repo": "claude_writing", "title": "claude_writing", "desc": "Claude Codeで文章を書くノウハウ集", "category": "開発・その他"},
     {"repo": "marp_slides", "title": "marp_slides", "desc": "Markdown→PPTX/PDFスライド自動生成", "category": "開発・その他"},
     {"repo": "setup_guide_ext", "title": "setup_guide_ext", "desc": "各サービスの設定画面を案内するChrome拡張", "category": "開発・その他"},
+    {"repo": "night_coder", "title": "night_coder", "desc": "夜間にClaude Codeでコード生成する仕組みの設計（【未完成】Phase 0・設計段階）", "category": "開発・その他"},
+    {"repo": "votoms_study", "title": "votoms_study", "desc": "装甲騎兵ボトムズの全体像を深掘りする分析（読み物中心）", "category": "開発・その他"},
     {"repo": "product_screens", "title": "product_screens", "desc": "公開中のWebプロダクトを実画面で一覧", "category": "開発・その他", "pages": "https://masauehr.github.io/product_screens/"}
   ]
 }

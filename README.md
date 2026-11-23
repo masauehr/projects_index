@@ -2,7 +2,7 @@
 
 詳しくは [projects-index.md](projects-index.md) を参照
 
-全 47 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。
+全 48 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。
 
 ## 天気図・数値予報
 
@@ -42,7 +42,6 @@
 | [jma-mcp-remote](https://github.com/masauehr/jma-mcp-remote) | JMA MCP のHTTP/SSEリモート版（Render） | [Repo](https://github.com/masauehr/jma-mcp-remote) | - |
 | [jma_weather_report](https://github.com/masauehr/jma_weather_report) | 気象庁APIの天気予報をGitHub Actionsで定期取得しMarkdownレポートとして公開 | [Repo](https://github.com/masauehr/jma_weather_report) | - |
 | [weather_digest](https://masauehr.github.io/weather_digest/) | 気象・気候・防災ニュースの週次・月次ダイジェスト（複数LLMの比較つき） | [Repo](https://github.com/masauehr/weather_digest) | [開く](https://masauehr.github.io/weather_digest/) |
-| [econ_digest](https://masauehr.github.io/econ_digest/) | 経済・マーケットニュースの週次・月次ダイジェスト（Ollama/Haikuの比較評価つき） | [Repo](https://github.com/masauehr/econ_digest) | [開く](https://masauehr.github.io/econ_digest/) |
 | [ai_news](https://masauehr.github.io/ai_news/) | 生成AI最新情報の週次・月次ダイジェスト（Ollama/Haikuの比較つき） | [Repo](https://github.com/masauehr/ai_news) | [開く](https://masauehr.github.io/ai_news/) |
 | [automated-data-collector](https://github.com/masauehr/automated-data-collector) | 気象・経済・AIの情報を自動収集・要約しSlack/Blueskyへ配信（Bluesky毎朝投稿はlaunchd+Claude Code CLI+MCP） | [Repo](https://github.com/masauehr/automated-data-collector) | - |
 | [RAG_met](https://github.com/masauehr/RAG_met) | 気象・業務データのRAGチャットボット | [Repo](https://github.com/masauehr/RAG_met) | - |
@@ -74,6 +73,8 @@
 | [claude_writing](https://github.com/masauehr/claude_writing) | Claude Codeで文章を書くノウハウ集 | [Repo](https://github.com/masauehr/claude_writing) | - |
 | [marp_slides](https://github.com/masauehr/marp_slides) | Markdown→PPTX/PDFスライド自動生成 | [Repo](https://github.com/masauehr/marp_slides) | - |
 | [setup_guide_ext](https://github.com/masauehr/setup_guide_ext) | 各サービスの設定画面を案内するChrome拡張 | [Repo](https://github.com/masauehr/setup_guide_ext) | - |
+| [night_coder](https://github.com/masauehr/night_coder) | 夜間にClaude Codeでコード生成する仕組みの設計（【未完成】Phase 0・設計段階） | [Repo](https://github.com/masauehr/night_coder) | - |
+| [votoms_study](https://github.com/masauehr/votoms_study) | 装甲騎兵ボトムズの全体像を深掘りする分析（読み物中心） | [Repo](https://github.com/masauehr/votoms_study) | - |
 | [product_screens](https://masauehr.github.io/product_screens/) | 公開中のWebプロダクトを実画面で一覧 | [Repo](https://github.com/masauehr/product_screens) | [開く](https://masauehr.github.io/product_screens/) |
 
 <!-- このファイルは build.py で自動生成。直接編集しない -->
