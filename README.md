@@ -2,7 +2,7 @@
 
 詳しくは [projects-index.md](projects-index.md) を参照
 
-全 48 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。
+全 50 件。タイトルが主リンク、「Repo」は GitHub、「Web」は公開ページ。
 
 ## 天気図・数値予報
 
@@ -53,6 +53,8 @@
 | [anomaly_lab](https://github.com/masauehr/anomaly_lab) | 日次発電量で異常検知を学ぶ | [Repo](https://github.com/masauehr/anomaly_lab) | - |
 | [rl_lab](https://github.com/masauehr/rl_lab) | 強化学習を自作の迷路・崖・蓄電池で学ぶ | [Repo](https://github.com/masauehr/rl_lab) | - |
 | [recsys_lab](https://github.com/masauehr/recsys_lab) | 推薦システムを合成データで学ぶ | [Repo](https://github.com/masauehr/recsys_lab) | - |
+| [rain_ml_lab](https://github.com/masauehr/rain_ml_lab) | 午前の観測から午後の大雨を当てられるか（沖縄本島7〜9月・ExtraTreesをRandomForest等と比較。気象庁データ） | [Repo](https://github.com/masauehr/rain_ml_lab) | - |
+| [precip_unet_lab](https://github.com/masauehr/precip_unet_lab) | 粗い格子の降水量予報を細かい格子へ補正するU-Netを合成データで学ぶ | [Repo](https://github.com/masauehr/precip_unet_lab) | - |
 | [dl_forecast_lab](https://github.com/masauehr/dl_forecast_lab) | 深層学習の時系列予測を合成データで学ぶ | [Repo](https://github.com/masauehr/dl_forecast_lab) | - |
 | [image_augment_lab](https://github.com/masauehr/image_augment_lab) | データ拡張を学ぶ演習 | [Repo](https://github.com/masauehr/image_augment_lab) | - |
 | [plate_reader_lab](https://github.com/masauehr/plate_reader_lab) | ナンバー風合成画像の読み取りミニシステム | [Repo](https://github.com/masauehr/plate_reader_lab) | - |

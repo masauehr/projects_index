@@ -41,6 +41,8 @@
     {"repo": "anomaly_lab", "title": "anomaly_lab", "desc": "日次発電量で異常検知を学ぶ", "category": "AI・機械学習の学習"},
     {"repo": "rl_lab", "title": "rl_lab", "desc": "強化学習を自作の迷路・崖・蓄電池で学ぶ", "category": "AI・機械学習の学習"},
     {"repo": "recsys_lab", "title": "recsys_lab", "desc": "推薦システムを合成データで学ぶ", "category": "AI・機械学習の学習"},
+    {"repo": "rain_ml_lab", "title": "rain_ml_lab", "desc": "午前の観測から午後の大雨を当てられるか（沖縄本島7〜9月・ExtraTreesをRandomForest等と比較。気象庁データ）", "category": "AI・機械学習の学習"},
+    {"repo": "precip_unet_lab", "title": "precip_unet_lab", "desc": "粗い格子の降水量予報を細かい格子へ補正するU-Netを合成データで学ぶ", "category": "AI・機械学習の学習"},
     {"repo": "dl_forecast_lab", "title": "dl_forecast_lab", "desc": "深層学習の時系列予測を合成データで学ぶ", "category": "AI・機械学習の学習"},
     {"repo": "image_augment_lab", "title": "image_augment_lab", "desc": "データ拡張を学ぶ演習", "category": "AI・機械学習の学習"},
     {"repo": "plate_reader_lab", "title": "plate_reader_lab", "desc": "ナンバー風合成画像の読み取りミニシステム", "category": "AI・機械学習の学習"},
