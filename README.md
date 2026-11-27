@@ -9,7 +9,7 @@
 | 名前 | 内容 | Repo | Web |
 |---|---|---|---|
 | [tenkizu](https://github.com/masauehr/tenkizu) | 天気図・断面図・エマグラムの作図ツール（GSM・ECMWF・JRA-55・気象庁高層観測、天気図18種） | [Repo](https://github.com/masauehr/tenkizu) | - |
-| [mac_wx_lab](https://masauehr.github.io/mac_wx_lab/) | MacBookで気象の物理モデル(WRF)とAIモデル(AIFS)を動かして比べる検証（所要時間・メモリ・結果の違い。公開サイトは閲覧専用） | [Repo](https://github.com/masauehr/mac_wx_lab) | [開く](https://masauehr.github.io/mac_wx_lab/) |
+| [mac_wx_lab](https://masauehr.github.io/mac_wx_lab/) | MacBookで気象の物理モデル(WRF)とAIモデル(AIFS)を動かして比べる検証（所要時間・メモリ・結果の違い。公開サイトは閲覧専用で、WRFの感度実験の設定はローカル画面で行う） | [Repo](https://github.com/masauehr/mac_wx_lab) | [開く](https://masauehr.github.io/mac_wx_lab/) |
 | [tenkizu_web](https://masauehr.github.io/tenkizu_web/) | tenkizuの図をブラウザで見る（ECMWF/GFS公開・別の図を並べる・実況エマグラム・断面図/エマグラムの自由選択） | [Repo](https://github.com/masauehr/tenkizu_web) | [開く](https://masauehr.github.io/tenkizu_web/) |
 | [nwp_chart_web](https://masauehr.github.io/nwp_chart_web/) | 数値モデル天気図ビューア（ECMWF/GFS/AIFS・2モデル比較・断面図/エマグラム作成。GSMはローカル専用） | [Repo](https://github.com/masauehr/nwp_chart_web) | [開く](https://masauehr.github.io/nwp_chart_web/) |
 | [nwp_xsection_api](https://github.com/masauehr/nwp_xsection_api) | 断面図・エマグラム作成API（Render用） | [Repo](https://github.com/masauehr/nwp_xsection_api) | - |
